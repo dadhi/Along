@@ -39,7 +39,7 @@ Along is the ideal programming language for me.
 - Literate programming and docs with live examples
 
 
-## Feelings
+## Sample
 
 main.alg
 ```
@@ -50,3 +50,7 @@ fib n i32 : _ i32 =
   if n < 1, n, fib n - 1 .+ fib n - 2
 
 ```
+
+## TBD
+
+- [ ] Interpret the sample program in rust
