@@ -25,6 +25,7 @@ Along is the ideal programming language for me.
 - Type inference
 - Everything is expression - last result returned
 - Multiple and named returns without tuples
+- Extend everything and solved "expression problem"
 - No semicolons!
 - Postfix expression to variable binding and function pipelines
 - Generics
@@ -34,8 +35,8 @@ Along is the ideal programming language for me.
 - Compile-time programing in itself
 - No build system or the builds in itself
 - Simple packages
-- Pay for play - the simplest things should be simple
-- Power to the people - no blocking the unsafe features, just make them "guarded" by whatever means
+- Pay-for-play - the simplest things should be simple
+- Power-to-the-people - no blocking the unsafe features, just make them "guarded" by whatever means
 - Prolog like solver as the natural language part
 - Literate programming and docs with live examples
 
@@ -46,7 +47,7 @@ main.alg
 ```
 main = fib 4 .println "Fib of 4: "
 
-fib n i32 : _ i32 =
+fib n i32 : i32 =
   if n < 1, n, fib n - 1 .+ fib n - 2
 
 ```
