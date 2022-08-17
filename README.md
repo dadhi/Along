@@ -9,6 +9,9 @@ Notes for language design:
 
 - Designed to get along with program change and growth
 - Interpreted and compiled (assembly or llvm)
+- Produce fast programs with small memory footprint
+- Fast compiler and feedback loop
+- C interop?
 - Repl or the tool to play with language with minimal hassle
 - Debugging
 - Powerful one liners
