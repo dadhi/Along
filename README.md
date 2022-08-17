@@ -27,5 +27,7 @@ Notes for language design:
 - Simple packages
 - Pay for play - the simplest things should be simple
 - Power to the people - no blocking the unsafe features, just make them "guarded" by whatever means
+- Prolog like solver as the natural language part
+
 
  
