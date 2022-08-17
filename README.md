@@ -1,8 +1,8 @@
 # Along
 
-**WIP!**
+**WIP! DRAFT!**
 
-Along is the ideal programming language for me
+Along is the ideal programming language for me.
 
 
 Notes for language design:
