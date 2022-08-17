@@ -47,7 +47,7 @@ main.alg
 ```
 main ::= fib 4 .println "Fib of 4: "
 
-fib : u32 : n u32 =
+fib : n u32 : u32 =
   if n < 1, n, fib n - 1 .+ fib n - 2
 
 ```
