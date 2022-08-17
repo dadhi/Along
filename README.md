@@ -18,12 +18,13 @@ Along is the ideal programming language for me.
 - Powerful one liners
 - Composable out of small primitives
 - Async in mind; extensible to other effects in mind
-- The syntax and other featues should enable the DSLs
+- The syntax and other features should enable the DSLs
 - Homoicony or lisp like simplified, but concise and explicit syntax without lispy brackets
 - Get ideas for simplicity from the stack based languages e.g. Forth
 - Low level and direct memory management with the gradual safety improvements
 - Type inference
 - Everything is expression - last result returned
+- Multiple and named returns without tuples
 - No semicolons!
 - Postfix expression to variable binding and function pipelines
 - Generics
