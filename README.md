@@ -45,10 +45,18 @@ Along is the ideal programming language for me.
 
 main.alg
 ```
-main ::= fib 4 .println "Fib of 4: "
 
-fib : n u32 : u32 =
-  if n < 1, n, fib n - 1 .+ fib n - 2
+main :: 
+ fib 4. println "Fib of 4: "
+
+fib: n u32 -> u32:
+  if n < 1, n, fib n - 1. + fib n - 2.
+
+answer::42
+
+test "answer to be 42", ::eq answer, 42.
+
+for 1, 5, :n: test "fib of ?n is ok " ::of eq fib n
 
 ```
 
