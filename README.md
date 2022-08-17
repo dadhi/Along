@@ -5,7 +5,7 @@
 Along is the ideal programming language for me.
 
 
-Notes for language design:
+## Language design
 
 - Designed to get along with program change and growth
 - Interpreted and compiled (assembly or llvm)
@@ -14,6 +14,7 @@ Notes for language design:
 - C interop?
 - Repl or the tool to play with language with minimal hassle
 - Debugging
+- No preference to OOP or Func or other styles, but the tool for enabling those styles
 - Powerful one liners
 - Composable out of small primitives
 - Async in mind; extensible to other effects in mind
@@ -21,6 +22,10 @@ Notes for language design:
 - Homoicony or lisp like simplified, but concise and explicit syntax without lispy brackets
 - Get ideas for simplicity from the stack based languages e.g. Forth
 - Low level and direct memory management with the gradual safety improvements
+- Type inference
+- Everything is expression - last result returned
+- No semicolons!
+- Postfix expression to variable binding and function pipelines
 - Generics
 - Type aliases
 - Functional types in std lib
@@ -31,6 +36,17 @@ Notes for language design:
 - Pay for play - the simplest things should be simple
 - Power to the people - no blocking the unsafe features, just make them "guarded" by whatever means
 - Prolog like solver as the natural language part
+- Literate programming and docs with live examples
 
 
- 
+## Feelings
+
+main.alg
+```
+main = 
+  fib 4 .println "Fib of 4: "
+
+fib n i32 : _ i32 =
+  if n < 1, n, fib n - 1 .+ fib n - 2
+
+```
