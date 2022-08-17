@@ -43,8 +43,7 @@ Along is the ideal programming language for me.
 
 main.alg
 ```
-main = 
-  fib 4 .println "Fib of 4: "
+main = fib 4 .println "Fib of 4: "
 
 fib n i32 : _ i32 =
   if n < 1, n, fib n - 1 .+ fib n - 2
