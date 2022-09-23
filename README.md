@@ -27,7 +27,7 @@ Along is the ideal programming language for me.
 - Multiple and named returns without tuples
 - Extend everything and solved "expression problem"
 - No semicolons!
-- Postfix expression to variable binding and function pipelines
+- Pipeline operator and postfix variable binding in the midst of pipeline
 - Generics
 - Type aliases
 - Functional types in std lib
