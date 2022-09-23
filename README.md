@@ -46,20 +46,19 @@ Along is the ideal programming language for me.
 main.alg
 ```
 
-main:: 
- fib 4 -> println "Fib 4th is ", ?
+main:
+ fib(4)@result | console("Fib 4th is ", result)
 
-fib: n u32 -> u32:
- if n < 1, n, fib n - 1. + fib n - 2
+fib: n u32 -> result u32:
+ result = if n < 1: n, fib(n - 1) + fib(n - 2)
 
 answer::42
 
-test answer to be 42::
- eq answer, 42
+*answer should be 42:
+  answer ==? 42 // ==? is assert
 
-test fib is ok::
- for 0, 1, 1, 2, 3, 5, 8 -> f, n:
-  eq f, fib n
+*test small sequence:
+  for(1, 1, 2, 3, 5, 8)@expected, i: expected ==? fib(i)
 
 
 
