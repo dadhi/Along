@@ -51,6 +51,9 @@ main:
 
 fib: n u32 -> result u32:
  result = if n < 1: n, fib(n - 1) + fib(n - 2)
+ 
+fib2: n u32 -> u32:
+ if n < 1: n, fib(n - 1) + fib(n - 2)
 
 answer::42
 
@@ -59,9 +62,6 @@ answer::42
 
 *test small sequence:
   for(1, 1, 2, 3, 5, 8)@expected, i: expected ==? fib(i)
-
-
-
 ```
 
 ## TBD
